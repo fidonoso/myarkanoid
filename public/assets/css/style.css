@@ -1,0 +1,64 @@
+body{
+    background-color: #111;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+canvas {
+    border: 4px solid #fff;
+    border-bottom: transparent;
+    background: url('../img/bkg.png') repeat ;
+    margin: 0 auto;
+    /* display: block; */
+    /* width: 990vw;
+    height: 800vh; */
+    /* width: 100%; */
+}
+
+/* .text-info {
+    color: #fff;
+    min-width: 100%;
+    height: 50px;
+    font-size: 20px;
+    padding: 50px;
+} */
+
+tr th.title-column{
+    font-size: 12px;
+}
+
+tr td.rankingPlayer{
+ font-size: 12px;
+}
+.powerUpTime{
+    color: #86f386;
+    font-size: 20px;
+    margin-left: 10px;
+}
+#player_name{
+    color: #5beb5b;
+    height: 50px;
+
+}
+#info-game{
+    color:#fff;
+    font-size: 15px;
+}
+#container_balls, #container_extra{
+    /* background-color: #5beb5b; */
+    margin-top: 50px;
+    border: 2px solid #fff;
+    height: 800px;
+    overflow: hidden;
+    overflow-y: auto ;
+}
+.con-ball{
+    height: 40px;
+    color:#fff
+}
+.ball-info{
+}
+.otra{
+    color: #5beb5b;
+}
